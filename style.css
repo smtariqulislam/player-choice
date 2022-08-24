@@ -14,3 +14,17 @@ body{
     
 
 }
+
+.footer {
+
+    padding: 50px;
+    margin: 2px;
+
+    height: min-content;
+    text-align: center;
+    justify-content: center;
+
+
+    background-color: black;
+    color: white;
+}

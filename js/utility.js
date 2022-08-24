@@ -5,4 +5,7 @@ function getInputId(inputId) {
     const inputFieldValue = parseFloat(inputFieldValueString);
     inputField.value = '';
     return inputFieldValue;
+
 }
+
+

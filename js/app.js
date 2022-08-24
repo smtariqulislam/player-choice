@@ -84,3 +84,49 @@ function addToCart(element) {
 
     displayProduct(cart);
 } 
+
+
+document.getElementById('btn-CalculateTotal').addEventListener('click', function(){
+
+
+// manger feild 
+    const mangerAmount = getInputId('manger');
+
+
+    const mangerElement = document.getElementById('total');
+    const mangerTotalString = mangerElement.innerText;
+    const mangerTotal = parseFloat(mangerTotalString);
+
+
+    mangerElement.innerText = mangerAmount;
+
+
+//   coachfield 
+
+    const coachAmount = getInputId('coach');
+
+
+    const coachElement = document.getElementById('total');
+    const coachTotalString = coachElement.innerText;
+    const coachTotal = parseFloat(coachTotalString);
+
+
+    coachElement.innerText = coachAmount;
+
+
+// total calculation 
+
+    const playerElement = document.getElementById('player-calculate');
+    const playerTotalString = playerElement.innerText;
+    const playerTotal = parseFloat(playerTotalString);
+
+
+    const Total = coachAmount + mangerAmount + playerTotal;
+
+    document.getElementById('total').innerText = Total;
+
+
+
+
+
+});
