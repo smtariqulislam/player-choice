@@ -126,7 +126,4 @@ document.getElementById('btn-CalculateTotal').addEventListener('click', function
     document.getElementById('total').innerText = Total;
 
 
-
-
-
 });
