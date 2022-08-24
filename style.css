@@ -1,0 +1,16 @@
+body{
+
+    background-color: rgb(167, 207, 224);
+}
+
+.top-banner {
+    background-image: url(images/cover.jpg);
+    background-repeat: no-repeat;
+    height: 900px;
+    width: auto;
+    padding: 200px;
+   
+    background-size: cover;
+    
+
+}
